@@ -4,3 +4,10 @@ Example : n=5 --> [5,4,3,2,1]
 */
 
 
+const reverseSeq = n => {
+    const array = [];
+     for( i = n; i > 0; i--){
+       array.push(i);
+     }
+     return array;
+   };
